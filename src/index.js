@@ -7,3 +7,5 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+console.log(1111, process.env.NODE_ENV);
